@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Loucademia:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Loucademia</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Loucademia-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Loucademia:war exploded" />
+    </root>
+  </artifact>
+</component>
